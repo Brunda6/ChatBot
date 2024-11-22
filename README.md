@@ -13,11 +13,19 @@ You can see the demo of the app live here:
 
 ## Setup and Installation
 1. Visit the Google Cloud Console: https://console.cloud.google.com/ create your API key.
-2. Launch the Postman application and Validate if your API endpoints work as expected.
-3. Create a New Vite Project:  ```npm create vite@latest ```
+2. Use in Your Project: Replace the ```YOUR_API_KEY_HERE``` in your code with the copied API key.
+3. Launch the Postman application and Validate if your API endpoints work as expected.
+4. Create a New Vite Project:  ```npm create vite@latest```
    * Select ```react``` as the framework.
    * Choose ```javascript``` as the variant.
-4. Install Dependencies ```npm install```
-5. Run the Development Server ```npm run dev```
+5. Install Dependencies: ```npm install```
 6. To handle HTTP requests, install Axios: ```npm i axios```
-7. 
+7. Launch the project in your browser by running: ```npm run dev```
+
+## Technologies Used
+* Frontend: React.js, Tailwind CSS
+* Backend: Google Gemini API
+* Others: Axios (for API requests), ReactMarkdown (for rendering Markdown content)
+
+## Contributing
+Feel free to fork the repository and submit pull requests if you want to contribute to this project. Please follow the standard fork-branch-pull request workflow.
