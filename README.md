@@ -1,4 +1,4 @@
-# Chat AI 🚀
+# Chat AI 🤖
 
 A web-based chatbot powered by AI that can answer user questions. This app uses the Gemini 1.5 AI model via Google's API for generating responses.
 
