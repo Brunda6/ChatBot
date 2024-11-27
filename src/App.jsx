@@ -30,7 +30,7 @@ function App() {
 
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=ADD_YOUR_APP_API_KEY",
+        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=ADD_YOUR_API_KEY",
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
@@ -48,7 +48,7 @@ function App() {
   }
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-r from-purple-200 to-purple-50">
+    <div className="fixed inset-0 bg-gradient-to-r from-pink-100 via-purple-200 to-indigo-200">
       <div className="h-full max-w-4xl mx-auto flex flex-col p-3">
         {/* Fixed Header */}
         <header className="text-center py-4">
@@ -60,12 +60,12 @@ function App() {
         {/* Scrollable Chat Container - Updated className */}
         <div
           ref={chatContainerRef}
-          className="flex-1 overflow-y-auto mb-4 rounded-[50px] border-4 border-purple-300 bg-purple shadow-lg p-4 hide-scrollbar"
+          className="flex-1 overflow-y-auto mb-4 rounded-[50px] border-4 border-purple-400 bg-purple shadow-lg p-4 hide-scrollbar"
         >
 
           {chatHistory.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center  text-center p-6">
-              <div className="bg-purple-50 rounded-[50px] p-8 max-w-2xl shadow-lg">
+              <div className="bg-purple-100 rounded-[50px] p-8 max-w-2xl shadow-lg">
                 <h2 className="text-3xl font-extrabold text-purple-500 mb-4">Hey there, Human! 🤖</h2>
                 <p className="text-gray-700 mb-6">
                   I'm your friendly ChatBot, here to brighten your day and answer your burning questions. Here's what I can do:
