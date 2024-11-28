@@ -1,6 +1,10 @@
 # Chat AI 🤖
 
-A web-based chatbot powered by AI that can answer user questions. This app uses the Gemini 1.5 AI model via Google's API for generating responses.
+A web-based AI chatbot application built with React JS and powered by the Google Gemini API. 
+
+🤖🤖🤖
+
+A language model chatbot, powered by Natural Language Processing (NLP) and Artificial Intelligence (AI) to understand user queries and generate human-like responses. Designed for seamless multilingual communication, text analytics, and conversational AI, it can perform a variety of language-focused tasks, including translation, answering questions, and more.
 
 ## Features
 * Chat with an AI-powered assistant.
