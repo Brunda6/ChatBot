@@ -1,4 +1,4 @@
-# Chat AI 🤖
+# Large Language Model Chatbot 🤖
 
 A web-based AI chatbot application built with React JS and powered by the Google Gemini API. 
 
