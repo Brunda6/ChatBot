@@ -24,4 +24,7 @@
     -ms-overflow-style: none;  
     scrollbar-width: none;  
   }
+  button:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
   
