@@ -30,7 +30,7 @@ function App() {
 
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=ADD_YOUR_API_KEY",
+        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDBdurOttGqDpEyGzjmlHeseyE9Z0e2meI",
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
@@ -55,6 +55,9 @@ function App() {
           <h1 className="font-serif text-5xl font-bold text-purple-700 hover:text-purple-500 transition-colors">
             Chat AI
           </h1>
+
+
+
         </header>
 
         {/* Scrollable Chat Container - Updated className */}
@@ -138,11 +141,24 @@ function App() {
             >
               Send
             </button>
+            <button
+              onClick={() => setChatHistory([])}
+              className="px-6 py-2 bg-purple-500 text-white rounded-[10px] hover:bg-purple-600 transition-colors ${generatingAnswer ? 'opacity-50 cursor-not-allowed"
+            >
+              Clear Chat
+            </button>
           </div>
+
         </form>
       </div>
+
+
     </div>
   );
 }
 
 export default App;
+
+
+// npm run build               -->  to deploy it in the netlify
+// npm run dev                 -->  to run the App.jsk
