@@ -13,7 +13,7 @@ A language model chatbot, powered by Natural Language Processing (NLP) and Artif
 
 ## Demo
 You can see the demo of the app live here: 
-[Live Demo](https://brunda-chatbot.netlify.app/)
+[Live Demo](https://brunda-m-chatbot.netlify.app/)
 
 ## Setup and Installation
 1. Visit the Google Cloud Console: https://console.cloud.google.com/ create your API key.
